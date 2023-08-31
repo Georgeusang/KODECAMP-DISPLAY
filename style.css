@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+
+    
+    
+}
+
+
+
+.left1 { width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right,rgba(0, 0, 255, 0.966) ,rgb(129, 221, 129));
+    display: flex;
+    justify-content: center;
+    }
+
+.left1 .left { width: 100%;
+    background-image: linear-gradient(to bottom right,rgba(0, 68, 255, 0.993), rgb(129, 221, 129));
+border-bottom-left-radius: 40px;
+border-top-left-radius: 40px;
+    margin: 25px 0px 25px 60px;
+    border: transparent; 
+    }
+
+.right1  {width: 50%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    }
+
+
+.logo { display: flex;
+justify-content:  center;
+align-items: center;}
+
+.right1 .right { width: 100%;
+background-color:white;
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
+    margin: 25px 60px 25px 0px;
+    border: transparent;
+
+
+}
+
+.talk { 
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.left1 .left .words {  width: 100%;
+padding-top: 250px;
+padding-left: 100px;}
+
+ .left1 .left .words h2 {height: 100%; 
+    padding-left: 50px;
+    width: 100%;
+    color:white;  
+    font-size: 30px;
+}  
+
+.left1 .left .words p {height: 100%; 
+    width: 100%;
+    color: white;  
+}
+.form1 {
+    margin-left: 20px;
+    margin-top: 50px;
+} 
+
+.form1 input {
+    width: 90%;
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.form1 label { font-size: 900;
+color: gray;
+letter-spacing: 1px;}
+
+.btn { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.btn button { 
+    width: 80%;
+    padding: 15px;
+    color: white;
+    background-color:#086Db8;
+    border: none;
+
+    border-radius: 20px;
+    
+}
+
+
+.say { text-align: center;
+margin-top: 10px;
+color: grey;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;}
+
+.achor {
+    text-align: center;
+    margin-top: 10px;
+    color: #086Db8;
+    font-size: 17px;
+}
+
+
+.slay { display: flex;
+justify-content: space-between;
+align-content: center;
+padding-top: 10px;
+padding-left: 22px;
+padding-right: 52px;
+width: 100%;
+
+
+}
+
+
+
+.slay p { color: grey;}
+.slay span { color: #086Db8;}
